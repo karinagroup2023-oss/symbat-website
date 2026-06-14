@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-emerald-900: #0b2c22;
+  --color-emerald-800: #0f3d2e;
+  --color-emerald-700: #185640;
+  --color-gold: #c8a04a;
+  --color-gold-light: #e6c473;
+  --color-cream: #f7f3ea;
+  --color-whatsapp: #27c08a;
+  --color-muted: #9fc3b4;
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-emerald-800); color: var(--color-cream); font-family: var(--font-sans); }
