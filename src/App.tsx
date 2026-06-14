@@ -9,6 +9,7 @@ import { Audience } from './sections/Audience'
 import { About } from './sections/About'
 import { FinalCta } from './sections/FinalCta'
 import { Footer } from './sections/Footer'
+import { FloatingActions } from './components/FloatingActions'
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <FinalCta />
       </main>
       <Footer />
+      <FloatingActions />
     </>
   )
 }
