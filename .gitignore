@@ -1,8 +1,13 @@
 node_modules/
 dist/
+*.tsbuildinfo
 .DS_Store
 .env
 .env.local
 .vercel
 .superpowers/
 .claude/
+
+# tsc -b emit artifacts
+vite.config.js
+vite.config.d.ts
