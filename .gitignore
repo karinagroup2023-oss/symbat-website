@@ -7,3 +7,7 @@ dist/
 .vercel
 .superpowers/
 .claude/
+
+# tsc -b emit artifacts
+vite.config.js
+vite.config.d.ts
